@@ -62,3 +62,17 @@ Tailwind CSS: Utility-first styling.
 
 Heroicons: SVG icons for UI.
 
+## ScreenShots 
+
+***DASHBOARD***
+
+![image](https://github.com/user-attachments/assets/0cc7385a-af50-485b-9850-6928db594f1d)
+
+***FILTERS APPLIED****
+
+![image](https://github.com/user-attachments/assets/6a939f91-e7a2-4633-bf75-5cb38b25ca89)
+
+***COLLAPSABLE SIDEBAR***
+
+![image](https://github.com/user-attachments/assets/03a2f2a6-7846-439e-8f90-5b758a37cdf5)
+
