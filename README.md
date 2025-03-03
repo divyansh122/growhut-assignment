@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Frontend Developer Test 
+
+## Overview
+
+This repository contains a frontend application built with Next.js, React, and Tailwind CSS for an "Orders Dashboard" as part of a frontend developer test. The app features a responsive sidebar, search and filter functionality for orders, and a clean UI matching a provided Figma design. It follows React best practices for clean, maintainable code.
+
+## Features
+
+Collapsible sidebar showing only icons when collapsed.
+
+Orders table with search and filter options (Dealership, Service Type, Mode of Order, Status).
+
+Filter chips for applied filters, removable via a close button.
+
+Responsive design using Tailwind CSS.
+
+Non-functional placeholders for Notifications and AK Motors.
+
+## Prerequisites
+
+Node.js (v16.x or later)
+
+npm (v8.x or later) or Yarn
+
+A code editor (e.g., VS Code)
 
 ## Getting Started
+**Installation**
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd growhut
 
-First, run the development server:
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+3. Run the development server:
+4. ```bash
+   npm run dev
+   # or
+   yarn dev
+   Open http://localhost:3000 in your browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Toggle the sidebar with the < button (icons only when collapsed).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Use search and filters to manage the orders table; remove filters via chips.
 
-## Learn More
+Notifications and AK Motors are visual placeholders, not functional.
 
-To learn more about Next.js, take a look at the following resources:
+## Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Next.js: Server-side rendering and routing.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+React: Interactive UI components.
 
-## Deploy on Vercel
+Tailwind CSS: Utility-first styling.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Heroicons: SVG icons for UI.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
